@@ -1,6 +1,6 @@
 {
   "name": "format-error",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "formats an error for display",
   "main": "index.js",
   "scripts": {
