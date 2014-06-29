@@ -88,7 +88,7 @@ by `patchError()`.
 This should only be called if
 you explictly called `patchError`.
 
-## License
+## license
 
 [MIT](LICENSE)
 
