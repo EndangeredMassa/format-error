@@ -12,11 +12,12 @@ describe('format-error#format', function(){
   });
 
   it('finds the stack', function(){
-    assert.include('Error:    something broke', this.message);
+    assert.include('Error: \n  """\n    something broke', this.message);
   });
 
   it('finds inner stacks', function(){
-    assert.include('Error: some inner thing broke', this.message);
+    assert.include('Error: \n    """\n      some inner thing broke',
+                   this.message);
   });
 
   it('finds metadata', function(){
